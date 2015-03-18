@@ -1,0 +1,114 @@
+/*
+Theme Name: SpirePress
+Theme URI: https://spire.co.ke/
+Author: Monji Dolon
+Author URI: http://massive.is/
+Description: Spire Kenya's custom WordPress theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body {
+  font-family: 'Raleway';
+}
+
+p {
+  color: #7a7a7a;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 18px;
+}
+
+.navbar {
+  margin: 0;
+  background: #fff;  border: none;
+}
+.navbar-header, .navbar-brand {
+  -webkit-transition: all 500ms ease-out 1s;
+  -moz-transition: all 500ms ease-out 1s;
+  -o-transition: all 500ms ease-out 1s;
+  transition: all 500ms ease-out 1s;
+}
+.navbar-header {
+  height: 100px;
+}
+.navbar-brand {
+  display: block;
+  max-width: 180px;
+  margin: 5px;  padding: 0;
+}
+.navbar-brand img {
+  width: 100%;
+}
+.navbar-right li a {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.splash {
+  margin-top: 100px;
+  padding: 150px 0;
+  min-height: 300px;
+  text-align: center;  color: #fff;
+  background: #eee;  background-size: cover;  background-position: top center;
+}
+.splash-home {
+  background-image: url(images/splash-home.png); 
+}
+.splash h2 {
+  margin: 0 0 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 80px;
+}
+.splash .btn {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.companies {
+  text-align: center;
+}
+.companies img {
+  width: 100%;  max-width: 1206px;
+}
+
+.what-is-spire .container{
+  max-width: 700px;
+  padding: 40px 0;
+}
+.what-is-spire h1 {
+  font-weight: bold;
+  color: #000;  text-align: center;
+}
+.what-is-spire h4 {
+  font-weight: bold;  text-transform: uppercase;;
+}
+.what-is-spire p {
+  margin: 0 0 20px;
+}
+
+
+@media(max-width:767px){
+  .navbar-header {
+    height: 60px;
+  }
+  .navbar-brand {
+    max-width: 100px;
+  }
+  .splash {
+    margin-top: 60px;
+    padding: 80px 0;
+  }
+  .splash h2 {
+    font-size: 40px;
+  }
+}
+@media(min-width:768px){}
+@media(min-width:992px){
+  .navbar-right {
+    position: relative;
+    top: 25px;
+  }
+}
+@media(min-width:1200px){}
