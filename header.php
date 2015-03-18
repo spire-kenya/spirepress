@@ -61,23 +61,3 @@
       <button type="button" class="btn btn-primary btn-lg">Find Out More</button>
     </div>
   </div>
-
-  <div class="companies">
-    <?php image_tag("companies.jpg"); ?>
-  </div>
-
-  <div class="what-is-spire">
-    <div class="container">
-      <h1>What is Spire?</h1>
-      <p>Spire is a Kenyan company that provides short professional courses (3-6 weeks) in Nairobi.</p>
-
-      <h4>A LEARNING PARTNER.</h4>
-      <p>Our world-class programmes are designed to give you the right training at the right time. You will receive constant feedback to help you at every step.</p>
-      
-      <h4>A WINNING APPROACH.</h4>
-      <p>Our classrooms use practical training with personal attention. The curriculum focuses on developing the skills you need with the mindset to make them work for you.</p>
-
-      <h4>A TEAM WITH EXPERIENCE.</h4>
-      <p>Our passionate team of coaches and curriculum designers draw on experience at companies like McKinsey and decades of experience in Kenya. Most of all, they are driven by a sense of fun and a desire to see you succeed!</p>
-    </div>
-  </div>

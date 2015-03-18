@@ -1,8 +1,8 @@
 <?php
 
-function image_tag($file, $url_only = false) {
+function image_tag($file, $url_only = false, $classes = null) {
   $url = esc_url(get_template_directory_uri() . "/images/" . $file);
-  $tag = '<img src="' . $url . '" />';
+  $tag = '<img src="' . $url . '" ' . ($classes ? (' class="' . $classes . '"') : null) . ' />';
   echo $url_only ? $url : $tag;
 }
 function js_tag($file, $url_only = false) {
