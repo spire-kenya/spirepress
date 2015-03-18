@@ -3,7 +3,7 @@ $(document).ready(function(){
   $('.navbar-header').data('size','big');
 
   $(window).scroll(function(){
-    if($(document).scrollTop() > 0) {
+    if($(document).scrollTop() > 0 && $(document).width() > 768) {
       if($('.navbar-header').data('size') == 'big') {
         $('.navbar-header').data('size','small').css("height", 60);
         $('.navbar-brand').css("maxWidth", 100);
